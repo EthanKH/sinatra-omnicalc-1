@@ -1,0 +1,13 @@
+<h1>Square Results</h1>
+
+<div>Number</div>
+<div> <%= params.fetch("user_square_input") %> </div>
+<%# for dynamic, replace with below
+# <%=@number%>
+<div>Square<div>
+<div> <%= params.fetch("user_square_input").to_f * params.fetch("user_square_input").to_f %> </div>
+<%# for dynamic, replace with below
+# <%=@squared%>
+
+
+<div><p><a href="/square/new">Calculate another square</a></p><div>
